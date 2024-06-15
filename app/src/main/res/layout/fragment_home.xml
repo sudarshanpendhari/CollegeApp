@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:sliderAutoCycleDirection="right"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderScrollTimeInSec="3"
+                app:sliderStartAutoCycle="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@string/bold"
+                android:padding="10dp"
+                android:text="SNJB's"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:fontFamily="@string/bold"
+                android:padding="2dp"
+                android:text="Late Sau. Kantabai Bhavarlalji Jain"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:fontFamily="@string/bold"
+                android:padding="5dp"
+                android:text="COLLEGE OF ENGINEERING"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:fontFamily="@string/regular"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="Accredited With A Grade By NAAC Permanently Affiliated To SPPU"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size2" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="8dp"
+                android:background="#c1c1c1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/textColor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="36dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@string/bold"
+                        android:padding="5dp"
+                        android:text="Departments"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title_size" />
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/compText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@string/bold"
+                                android:gravity="center_horizontal"
+                                android:padding="5dp"
+                                android:text="Computer"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/title_size2" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginVertical="8dp"
+                                android:background="#c1c1c1" />
+
+                            <TextView
+                                android:id="@+id/mechText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@string/bold"
+                                android:gravity="center_horizontal"
+                                android:padding="5dp"
+                                android:text="Mechanical"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/title_size2" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginVertical="8dp"
+                                android:background="#c1c1c1" />
+
+                            <TextView
+                                android:id="@+id/civilText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@string/bold"
+                                android:gravity="center_horizontal"
+                                android:padding="5dp"
+                                android:text="Civil"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/title_size2" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginVertical="8dp"
+                                android:background="#c1c1c1" />
+
+                            <TextView
+                                android:id="@+id/aidsText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@string/bold"
+                                android:gravity="center_horizontal"
+                                android:padding="5dp"
+                                android:text="@string/ai_ds"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/title_size2" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginVertical="8dp"
+                                android:background="#c1c1c1" />
+
+                            <TextView
+                                android:id="@+id/etcText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@string/bold"
+                                android:gravity="center_horizontal"
+                                android:padding="5dp"
+
+                                android:text="@string/e_tc"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/title_size2" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginVertical="8dp"
+                                android:background="#c1c1c1" />
+
+                            <TextView
+                                android:id="@+id/asText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@string/bold"
+                                android:gravity="center_horizontal"
+                                android:padding="5dp"
+                                android:text="Applied Science"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/title_size2" />
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@string/bold"
+                android:padding="5dp"
+                android:text="Our VISION"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@string/light"
+                android:padding="5dp"
+                android:text="@string/vision"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@string/bold"
+                android:padding="5dp"
+                android:text="Our MISSION"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@string/light"
+                android:padding="6dp"
+                android:text="@string/mission"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+
+                    android:fontFamily="@string/bold"
+                    android:padding="5dp"
+                    android:text="Contact Details"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/title_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+
+                    android:fontFamily="@string/regular"
+                    android:padding="5dp"
+                    android:text="+91 2556253750\n principalcoe@snjb.org\n+91 2556 253811"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/title_size2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+
+                    android:fontFamily="@string/bold"
+                    android:padding="5dp"
+                    android:text="Address"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/title_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+
+                    android:fontFamily="@string/regular"
+                    android:padding="5dp"
+                    android:text="86PP+5MQ, Neminagar Chandwad, College of Engineering, NH 3, Chandwad, Maharashtra 423101"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/title_size2" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:padding="16dp"
+                android:src="@drawable/map"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SNJB COE</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="vision">Transform young aspirant learners towards creativity and professionalism for societal growth through quality technical education.</string>
+    <string name="mission">1.To share values, ideas, beliefs by encouraging faculties and students for welfare of society.\n2.To acquire the environment of learning to bridge the gap between industry and academics.\n3.To enhance diverse career opportunities among students for building nation.\n4.To transfer the suitable technology, particularly for rural development.\n5.To enhance diverse career opportunities among students for building nation.</string>
+    <string name="ai_ds"><![CDATA[AI&DS]]></string>
+    <string name="e_tc"><![CDATA[E&TC]]></string>
+</resources>
